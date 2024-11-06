@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>尚品怡家</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+
+        header{
+            background-color: rgb(0, 0, 0);
+            height: 80px;
+            width: 100%;
+            position: relative;
+        }
+        header ul{
+            text-decoration: none;
+            border: 1px solid #acacac;
+            padding: 10px 10px;
+            position: relative;
+            right: -60vw;
+            top: 0;
+            line-height: -60px;
+        }
+        h1{
+            color: aliceblue;
+            position:absolute;
+            left: 120px;
+            top: 0;
+            line-height: 80px;
+        }
+        p{
+            color: rgb(0, 255, 4);
+            font-size: 24px;
+        }
+        header a{
+            text-decoration: underline;
+            color: rgb(1, 134, 251);
+        }
+        header a:hover{
+            text-decoration: underline;
+        }
+        header li{
+            display: inline;
+            margin-right: 4vw;
+        }
+        .news{
+            color:wheat;
+            height: 85vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 20px 0;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-image:url("wqd/微信图片_20241104131910.jpg")
+            
+        }
+        h3{
+            font-size: 36px;
+            color: blueviolet;
+            justify-content: center;
+            align-items: center;
+        }
+        footer{
+            background-color: black;
+            color: blanchedalmond;
+            height: 60px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 20px;
+            line-height: 1.8em;
+        }
+        /* 响应式语法 */
+        @media screen (max-width:768px){
+            header ul{
+                display:none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+    <h1>尚品怡家©</h1>
+    <nav>
+    <ul>
+        <li><a href="#">最新的消息</a></li>
+        <li><a href="#">关于我们</a></li>
+        <li><a href="#">市场销量</a></li>
+        <li><a href="#">产品订购</a></li>
+    </ul>
+    </nav>
+    </header>
+    <main>
+    <section class="news">
+    <h2 style="color:red">新品家具上线！</h2>
+    <p>丰富的资源，辛劳的设计师，快速安全的运输服务，竭诚为你服务</p>
+    <p><a href="#">了解更多</a></p>
+    </section>
+    <section>
+    <blockquote>"质量过硬，<br>服务至上"</blockquote>
+    </section>
+    </main>
+    <section class="loap">
+    <h3 style="color: rgb(0, 0, 0)">工厂地址</h3>
+    <img src="wqd/屏幕截图 2024-11-05 181350.png">
+    <img src="wqd/微信图片_20241103203320.png">
+    </section>
+    <footer>
+        <P>copyright © 2024 尚品怡家 all rights reserved.</P>
+    </footer>
+</body>
+</html>
